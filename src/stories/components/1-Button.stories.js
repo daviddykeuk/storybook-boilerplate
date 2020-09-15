@@ -12,11 +12,3 @@ export const Text = () => (
     Hello Button
   </Button>
 );
-
-export const Emoji = () => (
-  <Button variant="contained" color="primary" onClick={action("clicked")}>
-    <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
-  </Button>
-);
